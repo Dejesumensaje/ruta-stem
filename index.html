@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ruta STEM</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+
+    <!-- Cabezote del sitio -->
+    <header>
+        <div class="headerContainer">
+          <div class="brand">
+          <a href="index.html">
+            <img 
+              src="./assets/images/logo.png"
+              class="brand-img"
+            />
+            </a>          
+          </div>
+          <div class="nav-toggle">
+            <button class="nav-btn" onclick="navBar()">
+                <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div id="nav-list">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="definicion.html" class="nav-link">¿Qué es STEM?</a>
+            <a href="ruta.html" class="nav-link">Ruta STEM</a>
+            <a href="contenidos.html" class="nav-link">Contenidos</a>
+            <a href="https://portalstem.cpe.gov.co/" rel="noreferrer" target="_blank" class="nav-link">Portal Nacional STEM</a>
+        </div>
+    </header>
+
+    <!-- Contenido -->
+
+    <section class="definicion">
+        <div class="img-definicion">
+          <img
+            src="./assets/images/definicion.svg"
+            class="img-destacado"
+          />
+        </div>
+        <div class="content-destacado">
+          <h1>¿Qué es <span class="outline">STEM?</span></h1>      
+          <p>Es el término acrónimo de las siglas en inglés de Ciencia (Science), Tecnología (Technology), Ingeniería (Engineering) y Matemáticas (Mathematics). Entra para conocer por qué es tan relevante para la educación del Siglo XXI.</p>
+          <a href="definicion.html" class="btn-detail">Ver más</a>
+        </div>
+      </section>
+      <section class="contenidos">
+        <div class="content-contenidos">
+          <h2>Contenidos</h2>
+          <p>Encuentra una selección de contenidos para promover el enfoque educativo STEM en las comunidades educativas.</p>
+          <a href="contenidos.html" class="btn-detail">Ver más</a>
+        </div>
+        <div class="img-contenidos">
+          <img
+            src="./assets/images/contenidos-astronauta.svg"
+            placeholder="tracedSVG"
+            class="img-destacado"
+          />
+        </div>
+      </section>
+      <section class="ruta-home">
+        <div class="ruta-main">
+          <div class="container-ruta">
+            <h2>Sobre Ruta <span class="outline">STEM</span></h2>
+            <p>Ruta STEM es una iniciativa orientada a desarrollar una estrategia educativa nacional para la formación con enfoque STEM, que promueva el desarrollo de competencias digitales en niños, niñas, jóvenes, docentes y comunidad en general.</p>
+            <a href="ruta.html" class="btn-detail">Conocer más</a>
+          </div>
+        </div>
+      </section>    
+
+
+    <!-- Pata del sitio -->
+    <footer>
+        <div class="brand-footer">
+            <div class="col">
+                <img src="./assets/images/logo-colombiaaprende.png" alt="Logo del Portal Educativo Colombia Aprende" width="300" />
+            </div>
+            <div class="footer-nav">
+                <div class="links-footer">
+                    <ul>
+                        <li><a href="definicion.html">¿Qué es STEM?</a></li>
+                        <li><a href="ruta.html">Ruta STEM</a></li>
+                        <li><a href="contenidos.html">Contenidos</a></li>
+                        <li><a href="https://portalstem.cpe.gov.co/" target="_blank" rel="noreferrer">Portal Nacional STEM</a></li>
+                    </ul>
+                </div>
+                <div class="edusitios">
+                    <a target="_blank" rel="noreferrer" href="https://edusitios.colombiaaprende.edu.co">Ir al home de edusitios</a>
+                </div>
+            </div>
+        </div>            
+        <div class="institucional">
+            <div class="logoMEN">
+                <img
+                    src="./assets/images/men.png"
+                    width="300"
+                    alt="Logo del Ministerio de Educación Nacional"
+                />
+            </div>
+            <div class="contact-info">
+                <p>Mesa de ayuda: <a href="mailto:mesadeayuda@tecnologia.mineducacion.gov.co">mesadeayuda@tecnologia.mineducacion.gov.co</a></p>
+                <p>Línea Nacional: 01 8000 51 0258. Línea en Bogotá: 4890400</p>
+                <p>Horario de atención: Lunes a viernes, 8:00 a.m. - 5:00 p.m.</p>
+                <p>Reservados todos los derechos - <a href="https://colombiaaprende.edu.co/terminos-y-condiciones" target="_blank" rel="noreferrer">Términos y condiciones</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FGDV2QMEHM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FGDV2QMEHM');
+    </script>
+
+</body>
+</html>
